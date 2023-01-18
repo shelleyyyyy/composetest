@@ -4,6 +4,6 @@ services:
     build: .
     ports:
       - "9999:5000"
-    image: webapp:3
+    image: webapp:4
   redis:
     image: "redis:alpine"
